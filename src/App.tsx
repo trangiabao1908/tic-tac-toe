@@ -59,7 +59,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen max-w-full flex flex-col items-center mt-10">
       <div className="text-2xl font-bold mb-4">Tic Tac Toe</div>
-      <div className="mb-4">
+      <div className="mb-4 flex flex-row gap-2">
         <PlayerInput
           player="X"
           name={playerNames.X}
